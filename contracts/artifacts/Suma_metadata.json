@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "num1",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "num2",
+						"type": "int256"
+					}
+				],
+				"name": "Sumando",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/suma.sol": "Suma"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/suma.sol": {
+			"keccak256": "0x5ce5830f03dab8dd8905b143ed628bd07477e7fbeeefa29525ec9ea8358114d8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fca13e9e37e838a98003bf36e52df49cd83fa5a4d2251c285e5f057750806ec3",
+				"dweb:/ipfs/QmX4rAbLFxPBTXsaxTrzmFcrtE35uCcfdMD5VMnKHH3dqY"
+			]
+		}
+	},
+	"version": 1
+}
